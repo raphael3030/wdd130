@@ -1,31 +1,68 @@
+:root {
+  --primary-color: #055a05;
+  --accent1-color: #264653;
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Class Selectors */
-.box {
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 10%);
-  padding: 1rem;
-  background-color: #ddd;
-  color: #000;
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
 }
 
-aside {
-  width: 20em;
-  text-align: center;
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.hero {
   position: relative;
 }
 
-main img {
-  float: right;
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-aside h2 {
+.hero h1 {
   position: absolute;
-  top: 50%;
-  left: 50%; /* Added the missing colon and value */
-  transform: translate(-50%, -50%);
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
 }
