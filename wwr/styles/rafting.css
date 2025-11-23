@@ -123,7 +123,63 @@ footer .socialmedia {
   gap: 1rem;
 }
 footer .socialmedia img {
-  width: 30px;
+  width: 30px;header {
+  background: #f3f3f3;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  list-style: none;
+}
+.hero {
+  position: relative;
+  text-align: center;
+}
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 1rem;
+}
+.history-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.adventure-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.adventure-grid figure {
+  text-align: center;
+  margin: 00.5rem;
+}
+.adventure-grid img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+footer {
+  background: #e6e6e6;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialmedia img {
+  width: 24px;
+  height: 24px;
+}
   height: 30px;
   border-radius: 50%;
 }
