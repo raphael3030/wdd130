@@ -79,7 +79,7 @@ header nav a:hover, header nav a.active {
     text-align: center;
 }
 
-.call-to-action a {
+.call-to-action .cta-button {
     background-color: var(--primary-color);
     color: #fff;
     padding: 1rem 2rem;
@@ -89,7 +89,7 @@ header nav a:hover, header nav a.active {
     text-decoration: none;
 }
 
-.call-to-action a:hover {
+.call-to-action .cta-button:hover {
     background-color: #4a148c;
 }
 
@@ -98,6 +98,16 @@ header nav a:hover, header nav a.active {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 2rem;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
 footer {
