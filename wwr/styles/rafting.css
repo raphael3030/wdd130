@@ -75,8 +75,15 @@ header nav a:hover, header nav a.active {
 }
 
 .call-to-action {
-    padding: 2rem;
+    padding: 3rem;
     text-align: center;
+    background-color: #f9f9f9;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent1-color);
 }
 
 .call-to-action .cta-button {
@@ -87,6 +94,9 @@ header nav a:hover, header nav a.active {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .call-to-action .cta-button:hover {
