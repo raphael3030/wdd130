@@ -113,7 +113,6 @@ header nav a:hover, header nav a.active {
     background-color: #4a148c;
 }
 
-
 .call-to-action {
     padding: 3rem;
     text-align: center;
@@ -178,4 +177,10 @@ footer {
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+
+.socialmedia a:hover img {
+    opacity: 0.8;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
